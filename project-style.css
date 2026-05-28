@@ -453,6 +453,7 @@ section {
 }
 .viddesc {
   padding-top: 10px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -742,6 +743,7 @@ footer {
     border-radius: 18px;
     padding: 14px;
     border: 1px solid #efefef;
+    max-width: 100px;
   }
   .mockup-img {
     width: 100%;
@@ -779,7 +781,14 @@ footer {
     display: block;
     border-radius: 12px;
   }
-
+  .viddesc a {
+    max-width: 150%;
+    width: 150%;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+    height: auto;
+  } 
   .ba-img {
     gap: 20px;
 
